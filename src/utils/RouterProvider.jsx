@@ -3,8 +3,7 @@ import {
   createRoutesFromElements,
   Route,
 } from "react-router-dom";
-import { Root, RootLayout } from "../Pages/index";
-import { SignUp, LogIn } from "../Components/FormComponents";
+import { Root, RootLayout, LogIn, SignUp } from "../Pages/index.js";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(

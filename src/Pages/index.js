@@ -1,4 +1,5 @@
 import RootLayout from "./RootLayout";
 import Root from "./Root";
-
-export {Root,RootLayout}
+import SignUp from "./SignUp";
+import LogIn from "./LogIn";
+export {Root,RootLayout, SignUp,LogIn} 
